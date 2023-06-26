@@ -1,0 +1,42 @@
+
+hacemos un  git stash --include-untracked para no hacer un commit y cambiar de branch 
+
+$ git status
+On branch custom-navbar
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   archivo-de-trabajo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archivo-de-trabajo.css
+        archivo-de-trabajo.html
+        archivo-de-trabajo.js
+        archivo.prueba.txt
+
+
+Usuario@DESKTOP-18RECJ3 MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023/Desafio-1/Desafio-git/Website (custom-navbar)
+$ git stash --include-untracked
+warning: in the working copy of 'Website/archivo.prueba.txt', LF will be replaced by CRLF the next time Git touches it
+Saved working directory and index state WIP on custom-navbar: e0c678b archivo para subir branch dev
+
+volvemos a custom a modificar de vuelta los archivos en los que estavamos
+
+
+$ git stash pop
+On branch custom-navbar
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   archivo-de-trabajo.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archivo-de-trabajo.css
+        archivo-de-trabajo.html
+        archivo-de-trabajo.js
+        archivo.prueba.txt
+        log.txt
+
+Dropped refs/stash@{0} (c711670140118db604f59d03d8b6d649ad8b57fa)
+
+

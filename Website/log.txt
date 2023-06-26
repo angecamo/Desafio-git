@@ -1,0 +1,18 @@
+Author: angecamo <angecamo17@gmaile.com>
+Date:   Sun Jun 25 23:16:03 2023 -0300
+
+    eliminacion status.js
+
+commit 2a77f1b8bb75632800b2bdb3f821f6a607cec9ed (origin/main, origin/HEAD)
+Merge: 5a8739c 7009ff1
+Author: angecamo <angecamo17@gmaile.com>
+Date:   Sun Jun 25 21:13:19 2023 -0300
+
+    Merge branch 'main' of https://github.com/angecamo/Desafio-git
+
+commit 5a8739c1c35f071a7586928f621655392085742d
+Author: angecamo <angecamo17@gmaile.com>
+Date:   Sun Jun 25 21:12:48 2023 -0300
+
+    status.js
+
