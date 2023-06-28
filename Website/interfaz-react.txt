@@ -1,0 +1,38 @@
+Para subir los cambios del proyecto de Front-End a producción, considerando que la rama master se utiliza para ello, es recomendable seguir una metodología de ramificación y fusionar los cambios de la rama front-react a la rama master. Aquí tienen los pasos a seguir:
+
+Asegúrarse de tener una copia local actualizada del repositorio de la empresa en tu máquina. Puedes clonarlo ejecutando el siguiente comando en la línea de comandos o terminal:
+
+Verifica que estás en la rama front-react ejecutando el siguiente comando:
+
+git branch
+
+Asegúrate de que la rama front-react está marcada con un asterisco (*) antes de su nombre.
+
+Si los cambios en la rama front-react están listos para ser enviados a producción, crea una nueva rama a partir de la rama master. Puedes hacerlo con el siguiente comando:
+
+git checkout -b dev
+
+Ahora, fusiona los cambios de la rama front-react a la rama dev ejecutando el siguiente comando:
+
+git merge front-react
+
+Realiza cualquier ajuste o resolución de conflictos que puedan surgir durante la fusión.
+
+Una vez completada la fusión, cambia a la rama master ejecutando el siguiente comando:
+
+git checkout main
+
+Realiza otra fusión para traer los cambios de la rama dev a la rama master:
+
+git merge produccion
+
+Realiza cualquier ajuste o resolución de conflictos que puedan surgir durante la fusión.
+
+Ahora, puedes subir los cambios a producción ejecutando el siguiente comando:
+
+git push origin master
+
+Esto enviará los cambios fusionados en la rama master al repositorio remoto y los hará disponibles en producción.
+
+
+
